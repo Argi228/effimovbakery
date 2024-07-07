@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 40px;
+    line-height: 44px;
+}
+@font-face {
+    font-family: "NTSomicbold";
+    src: local("NTSomicbold"), 
+    url("../fonts/NTSomic/Fonts/Webfonts/NTSomic-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "NTSomicregular";
+    src: url("../fonts/NTSomic/Fonts/Webfonts/NTSomic-Regular.woff2") format("woff2");
+}
+body {
+    font-family: "NTSomicbold";
+}
+.logo {
+    position: absolute;
+    top: 5.8%;
+    left: 11%;
+}
+.logo img{
+    width: 9%;
+}
+.verban {
+    display: none;
+}
+.banner {
+    background-image: url('../images/banban3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "NTSomicbold";
+    font-size: 2rem;  
+}
+.banner-text {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 9%;
+}
+#kiki {
+    font-family: "NTSomicbold";
+    font-size: 2rem;
+    line-height: 62px;
+    color: rgb(255, 255, 255);
+}
+
+.banner .order {
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+.zizi {
+    font-size: 0.6rem;
+    margin: auto 0;
+    color: rgb(43, 43, 43);
+}
+.banner .order img {
+    width: 3.5%;
+    margin: auto 10px;
+    transform: rotate(270deg);
+}
+button {
+    margin: auto 0px;
+    font-family: "NTSomicbold";
+    padding: 10px;
+    width: 28%;
+    font-family: "NTSomicbold";
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 43, 43);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 0.5rem;
+}
+
+/*.zakaz {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    top: 75%;
+    left: 11.5%;
+    width: 18%;
+}*/
+
+.zagolovok {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    font-family: "NTSomicregular";
+}
+.bolish {
+    display: block;
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.kurlic {
+    display: inline-block;
+    transform: translate(0px, 14px);
+    margin: 0px 5px;
+}
+.bolish img {
+    width: 80px;
+}
+.poyas {
+    display: inline-block;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "NTSomicbold";
+    font-size: 1.5rem;
+}
+.mio {
+    display: block;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+#boldezh {
+    font-family: "NTSomicbold";
+    font-size: 0.8rem;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1vw;
+    margin: 0px 78px;
+}
+.cardblock {
+    grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    margin: 31px 8px;
+}
+.card img {
+width: 100%;
+}
+h2 {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+.child {
+    font-size: 1rem;
+    margin: 20px 0px 0px;
+}
+span {
+    font-size: 0.9rem;
+}
+.final-block {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    font-family: "NTSomicbold";
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+@media (max-width: 2560px) {
+    .logo {
+        position: absolute;
+        top: 7%;
+        left: 11%;
+    }
+    .logo img{
+        width: 18%;
+    }
+    .banner {
+        font-family: "NTSomicbold";
+        font-size: 2rem;  
+    }
+    .banner-text {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 9%;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 3rem;
+        line-height: 90px;
+    }
+    .banner .order {
+        margin-top: 50px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        font-size: 0.9rem;
+        margin: auto 0;
+        color: rgb(43, 43, 43);
+    }
+    .banner .order img {
+        width: 6%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: auto 0px;
+        font-family: "NTSomicbold";
+        padding: 16px;
+        width: 35%;
+        border-radius: 40px;
+        font-size: 0.9rem;
+    }
+    .child {
+        font-size: 1.6rem;
+        margin: 20px 0px 0px;
+    }
+    .final-block {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        font-family: "NTSomicbold";
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+}
+@media (max-width: 1920px) {
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 11%;
+    }
+    .logo img{
+        width: 12%;
+    }
+    .banner-text {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 9%;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 2rem;
+        line-height: 70px;
+    }
+    .banner .order {
+        margin-top: 85px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        font-size: 0.8rem;
+        margin: auto 0;
+        color: rgb(43, 43, 43);
+    }
+    .banner .order img {
+        width: 5%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: auto 0;
+        font-family: "NTSomicbold";
+        padding: 14px;
+        width: 32%;
+        border-radius: 40px;
+        font-size: 0.6rem;
+    }
+    .child {
+        font-size: 1.3rem;
+        margin: 20px 0px 0px;
+    }
+    .final-block {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        font-family: "NTSomicbold";
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+}
+@media (max-width: 1496px) {
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 11%;
+    }
+    .logo img{
+        width: 12%;
+    }
+    .banner {
+        background-image: url('../images/banban3.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: left;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-family: "NTSomicbold";
+        font-size: 2rem;  
+    }
+    .banner-text {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 9%;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 2rem;
+        line-height: 62px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .banner .order {
+        margin-top: 50px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        font-size: 0.6rem;
+        margin: auto 0;
+        color: rgb(43, 43, 43);
+    }
+    .banner .order img {
+        width: 3.5%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: auto 0;
+        font-family: "NTSomicbold";
+        padding: 12px;
+        width: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 43, 43);
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 0.5rem;
+    }
+    .child {
+        font-size: 1rem;
+        margin: 20px 0px 0px;
+    }
+    .final-block {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        font-family: "NTSomicbold";
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+    h2 {
+        font-size: 0.65rem;
+        line-height: 0.65rem;
+    }
+    p {
+        font-size: 0.6rem;
+        margin: 7px 0px 0px;
+        line-height: 25px;
+    }
+    span {
+        font-size: 0.65rem;
+    }
+}
+@media (max-width: 1024px) {
+    .main {
+        grid-template-rows: repeat(3); 
+    }
+    .cardblock {
+        grid-row: 1/3;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h2 {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+    p {
+        font-size: 0.6rem;
+        margin: 7px 0px 0px;
+    }
+    span {
+        font-size: 0.5rem;
+    }
+    .card {
+        margin: 16px 8px;
+    }
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 11%;
+    }
+    .logo img{
+        width: 15%;
+    }
+    .banner {
+        background-image: url('../images/banban3.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: left;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-family: "NTSomicbold"; 
+    }
+    .banner-text {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 9%;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 1.5rem;
+        line-height: 50px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .banner .order {
+        margin-top: 50px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        margin: auto 0;
+        color: rgb(43, 43, 43);
+    }
+    .banner .order img {
+        width: 3.5%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: auto 0;
+        font-family: "NTSomicbold";
+        padding: 10px;
+        width: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 43, 43);
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 0.5rem;
+    }
+    .child {
+        font-size: 1rem;
+        margin: 20px 0px 0px;
+    }
+    .final-block {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        font-family: "NTSomicbold";
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+    .zagolovok {
+        display: flex;
+        justify-content: center;
+        margin: 80px auto;
+        font-family: "NTSomicregular";
+    }
+    .bolish {
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+    .kurlic {
+        display: inline-block;
+        transform: translate(0px, 8px);
+        margin: 0px 5px;
+    }
+    .bolish img {
+        width: 50px;
+    }
+    .poyas {
+        display: inline-block;
+        margin: 40px auto;
+        text-align: center;
+        font-family: "NTSomicbold";
+        font-size: 1rem;
+    }
+    .mio {
+        display: block;
+        justify-content: center;
+        font-size: 0.55rem;
+        line-height: 30px;
+    }
+    #boldezh {
+        font-family: "NTSomicbold";
+        font-size: 0.55rem;
+    }
+}
+@media (max-width: 769px) {
+    .verban {
+        display: none;
+    }
+    .main {
+        grid-template-rows: repeat(3); 
+    }
+    .cardblock {
+        grid-row: 1/3;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    h2 {
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+    p {
+        font-size: 0.6rem;
+        margin: 7px 0px 0px;
+    }
+    span {
+        font-size: 0.5rem;
+    }
+    .card {
+        margin: 16px 8px;
+    }
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 11%;
+    }
+    .logo img{
+        width: 25%;
+    }
+    .banner {
+        background-image: url('../images/banban3.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: left;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-family: "NTSomicbold"; 
+    }
+    .banner-text {
+        display: inline-block;
+        margin-top: 280px;
+        padding: 20px;
+        margin-left: 9%;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 1.5rem;
+        line-height: 50px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .banner .order {
+        margin-top: 50px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        font-size: 0.4rem;
+        margin: auto 0;
+        color: rgb(43, 43, 43);
+    }
+    .banner .order img {
+        width: 3.5%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: auto 0;
+        font-family: "NTSomicbold";
+        padding: 9px;
+        width: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 43, 43);
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 0.3rem;
+    }
+    .child {
+        font-size: 0.7rem;
+        margin: 20px 0px 0px;
+    }
+    .final-block {
+        text-align: center;
+        margin: 30px 0;
+        padding: 20px;
+        font-family: "NTSomicbold";
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+    .zagolovok {
+        display: flex;
+        justify-content: center;
+        margin: 80px auto;
+        font-family: "NTSomicregular";
+    }
+    .bolish {
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+    .kurlic {
+        display: inline-block;
+        transform: translate(0px, 8px);
+        margin: 0px 5px;
+    }
+    .bolish img {
+        width: 50px;
+    }
+    .poyas {
+        display: inline-block;
+        margin: 40px auto;
+        text-align: center;
+        font-family: "NTSomicbold";
+        font-size: 1rem;
+    }
+    .mio {
+        display: block;
+        justify-content: center;
+        font-size: 0.55rem;
+        line-height: 30px;
+    }
+    #boldezh {
+        font-family: "NTSomicbold";
+        font-size: 0.55rem;
+    }
+
+}
+@media (max-width: 431px) {
+    .banner {
+        display: none;
+    }
+    .verban {
+    background-image: url('../images/vertical23.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: left;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "NTSomicbold"; 
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 13%;
+    }
+    .logo img{
+        display: block;
+        justify-content: center;
+        width: 65px;
+    }
+    .verban .banner-text {
+        display: inline-block;
+        padding: 20px;
+        margin-left: 9%;
+        margin-bottom: 560px;
+    }
+    #kiki {
+        font-family: "NTSomicbold";
+        font-size: 1.2rem;
+        line-height: 42px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .verban .order {
+        margin-top: 5px;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+    }
+    .zizi {
+        font-size: 0.25rem;
+        margin: auto 3px;
+        color: rgb(43, 43, 43);
+    }
+    .verban .order img {
+        width: 4%;
+        margin: auto 10px;
+        transform: rotate(270deg);
+    }
+    button {
+        margin: 10px 0;
+        font-family: "NTSomicbold";
+        padding: 4px;
+        width: 35%;
+        font-family: "NTSomicbold";
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 43, 43);
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        font-size: 0.2rem;
+    }
+    .poyas {
+        margin: 20px auto;
+        font-size: 0.6rem;
+    }
+    .child {
+        font-size: 0.6rem;
+        margin: 20px 0px 0px;
+    }
+    .zagolovok {
+        display: flex;
+        justify-content: center;
+        margin: 80px 20px;
+        font-family: "NTSomicregular";
+    }
+    .bolish {
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+    .kurlic {
+        display: inline-block;
+        transform: translate(0px, 1px);
+        margin: 0px 5px;
+    }
+    .bolish img {
+        width: 25px;
+    }
+    .mio {
+        display: block;
+        text-align: center;
+        font-size: 0.35rem;
+        line-height: 20px;
+    }
+    #boldezh {
+        font-family: "NTSomicbold";
+        font-size: 0.35rem;
+    }
+    .main{
+        margin: 0px 40px;
+    }
+    .cardblock {
+        grid-template-columns:  1fr
+    }
+    .card {
+        margin: 15px 8px;
+    }
+    h2 {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+    span {
+        font-size: 0.4rem;
+    }
+    p {
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+}
